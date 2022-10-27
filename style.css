@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    margin-bottom: .5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.playerName {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+h2 {
+    border: 1px solid black; 
+    padding: .8rem;
+    background-color: #0652DD;
+    color: white;
+}
+
+.interface {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.interfacePlayer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    border: 1px solid black;
+    width: 35%;
+    height: 15rem;
+}
+
+.interfaceOrdi {
+    display: flex;
+    align-content: center;
+    border: 1px solid black;
+    width: 35%;
+    height: 15rem;
+}
+
+img {
+    width: 20%;
+    margin: auto;
+}
+
+img:hover {
+    border: 2px solid gold;
+}
+
+.resultatCarre {
+    text-align: center;
+    margin-bottom: .8rem;
+}
+
+.resultat {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.scoreCarre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.scoreCarre p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin : auto;
+    margin-bottom: .5rem;
+}
+
+main {
+    margin-bottom: 7rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    vertical-align: middle;
+    font-size: 0.8rem;
+	font-style: italic;
+	padding-bottom: 3px;
+}
+
+@media (min-width : 320px) and (max-width: 768px)  {
+    .interfacePlayer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        width: 30%;
+    }
+
+ }
