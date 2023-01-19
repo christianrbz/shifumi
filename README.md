@@ -1,4 +1,4 @@
-Projet Shifumi - Développement du jeu du pierre, feuille, ciseaux en Javascript
+Projet Shifumi - Développement du jeu du pierre, feuille, ciseaux en JavaScript
 
 Lien du site : https://christianrbz.github.io/shifumi/
 
